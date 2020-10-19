@@ -11,8 +11,3 @@ type BookRepository interface {
 	SaveBook(book Book) error
 	FindAll() ([]*Book, error)
 }
-
-func FindAll() {
-
-	println("This is a teste!!!")
-}
